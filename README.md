@@ -10,9 +10,9 @@ Profile triggered by any bluetooth connection or disconnection event (filtering 
 
 ### [NFCTag](NFCTag.prf.xml)
 
-## Tasks
-
 Profile triggered by any NFC tagging event (I have only one NFC tag today so I am not filtering per tag ID).
+
+## Tasks
 
 ### [LaunchPocketCasts](LaunchPocketCasts.tsk.xml)
 
