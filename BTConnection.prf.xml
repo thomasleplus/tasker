@@ -1,4 +1,5 @@
 <TaskerData sr="" dvi="1" tv="5.15.14">
+  <!-- Any BT connection / disconnection -->
   <Profile sr="prof210" ve="2">
     <cdate>1637993239049</cdate>
     <edate>1650237435155</edate>
