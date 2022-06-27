@@ -1,8 +1,8 @@
 <TaskerData sr="" dvi="1" tv="5.15.14">
   <!-- First check that the event comes from a BT device in the headphones
-    class (1048). If so, if it is a connect event, launch PocketCasts and
-    raise the media volume to the max (25). If the event is a disconnect
-    event, mute the media volume. -->
+    class (1048). If so, and it is a connect event, launch PocketCasts and
+    raise the media volume to the max (25). Otherwise, if the event is a
+    disconnect event, mute the media volume. -->
   <Task sr="task665">
     <cdate>1637993274120</cdate>
     <edate>1656281258022</edate>
