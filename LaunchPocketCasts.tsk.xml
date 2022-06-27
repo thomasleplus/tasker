@@ -1,8 +1,8 @@
 <TaskerData sr="" dvi="1" tv="5.15.14">
-  <!-- If event is BT connection (not disconnection)
-    and BT device class is headphones (1048),
-    launch PocketCasts, wait 3 sec and turn on
-    media volume to the max (25). -->
+  <!-- First check that the event comes from a BT device in the headphones
+    class (1048). If so, if it is a connect event, launch PocketCasts and
+    raise the media volume to the max (25). If the event is a disconnect
+    event, mute the media volume. -->
   <Task sr="task665">
     <cdate>1637993274120</cdate>
     <edate>1656281258022</edate>
@@ -12,13 +12,7 @@
     <Action sr="act0" ve="7">
       <code>37</code>
       <ConditionList sr="if">
-        <bool0>And</bool0>
         <Condition sr="c0" ve="3">
-          <lhs>%bt_connected</lhs>
-          <op>2</op>
-          <rhs>true</rhs>
-        </Condition>
-        <Condition sr="c1" ve="3">
           <lhs>%bt_class</lhs>
           <op>2</op>
           <rhs>1048</rhs>
@@ -26,6 +20,16 @@
       </ConditionList>
     </Action>
     <Action sr="act1" ve="7">
+      <code>37</code>
+      <ConditionList sr="if">
+        <Condition sr="c0" ve="3">
+          <lhs>%bt_connected</lhs>
+          <op>2</op>
+          <rhs>true</rhs>
+        </Condition>
+      </ConditionList>
+    </Action>
+    <Action sr="act2" ve="7">
       <code>20</code>
       <App sr="arg0">
         <appClass>au.com.shiftyjelly.pocketcasts.ui.MainActivity</appClass>
@@ -36,19 +40,26 @@
       <Int sr="arg2" val="0"/>
       <Int sr="arg3" val="0"/>
     </Action>
-    <Action sr="act2" ve="7">
-      <code>30</code>
-      <Int sr="arg0" val="0"/>
-      <Int sr="arg1" val="3"/>
-      <Int sr="arg2" val="0"/>
-      <Int sr="arg3" val="0"/>
-      <Int sr="arg4" val="0"/>
-    </Action>
     <Action sr="act3" ve="7">
       <code>307</code>
       <Int sr="arg0" val="25"/>
       <Int sr="arg1" val="0"/>
       <Int sr="arg2" val="0"/>
+    </Action>
+    <Action sr="act4" ve="7">
+      <code>43</code>
+    </Action>
+    <Action sr="act5" ve="7">
+      <code>307</code>
+      <Int sr="arg0" val="0"/>
+      <Int sr="arg1" val="0"/>
+      <Int sr="arg2" val="0"/>
+    </Action>
+    <Action sr="act6" ve="7">
+      <code>38</code>
+    </Action>
+    <Action sr="act7" ve="7">
+      <code>38</code>
     </Action>
   </Task>
 </TaskerData>
