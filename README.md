@@ -16,12 +16,7 @@ Profile triggered by any NFC tagging event (I have only one NFC tag today so I a
 
 ### [LaunchPocketCasts](LaunchPocketCasts.tsk.xml)
 
-I use this task in conjunction with the BTConnection profile above. That's why the task starts with an IF condition action: I only want to execute the following actions if the trigger was a bluetooth connection event (vs a bluetooth disconnection event) and if the bluetooth device is in the headphone class ID 1048 (vs a smartwatch or something else).
-
-The rest of the task is pretty straightforward:
-1. Launch PocketCasts.
-2. Wait 3 seconds.
-3. Turn up the media volume to the max (25).
+I use this task in conjunction with the BTConnection profile above. That's why the task starts with an IF condition action: I only want to execute the following actions if the trigger was a bluetooth headset connection or disconnection event. For this I use a condition based on the BT headphone class ID 1048. The rest of the task is pretty straightforward: if the event is a connection being established, I launch PocketCasts and raise the media volume to the max (25). If instead the event is a disconnection, I mute the media volume.
 
 ### [StartBiking](StartBiking.tsk.xml) & [StopBiking](StopBiking.tsk.xml)
 
