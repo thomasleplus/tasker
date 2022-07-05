@@ -1,0 +1,15 @@
+<TaskerData sr="" dvi="1" tv="5.15.14">
+  <!-- When battery level is between 14% and 15% -->
+  <Profile sr="prof75" ve="2">
+		<cdate>1656370696495</cdate>
+		<edate>1656567802338</edate>
+		<flags>10</flags>
+		<id>75</id>
+		<mid0>11</mid0>
+		<State sr="con0" ve="2">
+			<code>140</code>
+			<Int sr="arg0" val="14"/>
+			<Int sr="arg1" val="15"/>
+		</State>
+	</Profile>
+</TaskerData>
