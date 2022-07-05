@@ -33,7 +33,7 @@
 					<ActionId-type>java.lang.String</ActionId-type>
 					<ActionType>16</ActionType>
 					<ActionType-type>java.lang.String</ActionType-type>
-					<EnableDisableAccessibilityService><null></EnableDisableAccessibilityService>
+					<EnableDisableAccessibilityService>&lt;null&gt;</EnableDisableAccessibilityService>
 					<EnableDisableAccessibilityService-type>java.lang.String</EnableDisableAccessibilityService-type>
 					<FieldSelectionType>1</FieldSelectionType>
 					<FieldSelectionType-type>java.lang.String</FieldSelectionType-type>
@@ -41,17 +41,17 @@
 					<IsFirstAction-type>java.lang.Boolean</IsFirstAction-type>
 					<IsTaskerAction>false</IsTaskerAction>
 					<IsTaskerAction-type>java.lang.Boolean</IsTaskerAction-type>
-					<NearbyText><null></NearbyText>
+					<NearbyText>&lt;null&gt;</NearbyText>
 					<NearbyText-type>java.lang.String</NearbyText-type>
-					<Password><null></Password>
+					<Password>&lt;null&gt;</Password>
 					<Password-type>java.lang.String</Password-type>
-					<RepeatInterval><null></RepeatInterval>
+					<RepeatInterval>&lt;null&gt;</RepeatInterval>
 					<RepeatInterval-type>java.lang.String</RepeatInterval-type>
-					<RepeatTimes><null></RepeatTimes>
+					<RepeatTimes>&lt;null&gt;</RepeatTimes>
 					<RepeatTimes-type>java.lang.String</RepeatTimes-type>
-					<StoredAction><null></StoredAction>
+					<StoredAction>&lt;null&gt;</StoredAction>
 					<StoredAction-type>java.lang.String</StoredAction-type>
-					<TextToWrite><null></TextToWrite>
+					<TextToWrite>&lt;null&gt;</TextToWrite>
 					<TextToWrite-type>java.lang.String</TextToWrite-type>
 					<com.twofortyfouram.locale.intent.extra.BLURB>Type: Id
 Value: com.instagram.android:id/icon_view
@@ -86,7 +86,7 @@ Only available if you select &lt;b&gt;Continue Task After Error&lt;/b&gt; and th
 					<ActionId-type>java.lang.String</ActionId-type>
 					<ActionType>16</ActionType>
 					<ActionType-type>java.lang.String</ActionType-type>
-					<EnableDisableAccessibilityService><null></EnableDisableAccessibilityService>
+					<EnableDisableAccessibilityService>&lt;null&gt;</EnableDisableAccessibilityService>
 					<EnableDisableAccessibilityService-type>java.lang.String</EnableDisableAccessibilityService-type>
 					<FieldSelectionType>1</FieldSelectionType>
 					<FieldSelectionType-type>java.lang.String</FieldSelectionType-type>
@@ -94,17 +94,17 @@ Only available if you select &lt;b&gt;Continue Task After Error&lt;/b&gt; and th
 					<IsFirstAction-type>java.lang.Boolean</IsFirstAction-type>
 					<IsTaskerAction>false</IsTaskerAction>
 					<IsTaskerAction-type>java.lang.Boolean</IsTaskerAction-type>
-					<NearbyText><null></NearbyText>
+					<NearbyText>&lt;null&gt;</NearbyText>
 					<NearbyText-type>java.lang.String</NearbyText-type>
-					<Password><null></Password>
+					<Password>&lt;null&gt;</Password>
 					<Password-type>java.lang.String</Password-type>
-					<RepeatInterval><null></RepeatInterval>
+					<RepeatInterval>&lt;null&gt;</RepeatInterval>
 					<RepeatInterval-type>java.lang.String</RepeatInterval-type>
-					<RepeatTimes><null></RepeatTimes>
+					<RepeatTimes>&lt;null&gt;</RepeatTimes>
 					<RepeatTimes-type>java.lang.String</RepeatTimes-type>
-					<StoredAction><null></StoredAction>
+					<StoredAction>&lt;null&gt;</StoredAction>
 					<StoredAction-type>java.lang.String</StoredAction-type>
-					<TextToWrite><null></TextToWrite>
+					<TextToWrite>&lt;null&gt;</TextToWrite>
 					<TextToWrite-type>java.lang.String</TextToWrite-type>
 					<com.twofortyfouram.locale.intent.extra.BLURB>Type: Id
 Value: com.instagram.android:id/overflow_menu_item
