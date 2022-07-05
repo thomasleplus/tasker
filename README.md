@@ -14,7 +14,7 @@ Profile triggered by any NFC tagging event (I have only one NFC tag today so I a
 
 ## Tasks
 
-### [LaunchInstragram](LaunchInstragram.tsk.xml)
+### [LaunchInstagram](LaunchInstagram.tsk.xml)
 
 I use this task in a Tasker Task widget to launch Instragran and then use AutoInput to automatically navigate to the Following tab. This shows me only posts from people I follow. No "recommended" content", no ads (so far). This task requires the [AutoInput](https://play.google.com/store/apps/details?id=com.joaomgcd.autoinput) app to be installed and properly configured (but root is not required).
 
