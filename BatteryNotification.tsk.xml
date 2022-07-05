@@ -1,0 +1,23 @@
+<TaskerData sr="" dvi="1" tv="5.15.14">
+  <!-- Push notification with battery percentage -->
+	<Task sr="task712">
+		<cdate>1656370711887</cdate>
+		<edate>1656683561428</edate>
+		<id>712</id>
+		<nme>Battery Notification</nme>
+		<Action sr="act0" ve="7">
+			<code>523</code>
+			<Str sr="arg0" ve="3">Phone Battery %BATT%</Str>
+			<Str sr="arg1" ve="3"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
+			<Int sr="arg6" val="0"/>
+			<Int sr="arg7" val="3"/>
+			<Int sr="arg8" val="0"/>
+			<Str sr="arg9" ve="3"/>
+			<Str sr="arg10" ve="3"/>
+			<Str sr="arg11" ve="3">Battery</Str>
+		</Action>
+	</Task>
+</TaskerData>
