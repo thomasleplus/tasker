@@ -79,10 +79,18 @@ Only available if you select &lt;b&gt;Continue Task After Error&lt;/b&gt; and th
 			<Int sr="arg4" val="1"/>
 		</Action>
 		<Action sr="act3" ve="7">
+			<code>30</code>
+			<Int sr="arg0" val="100"/>
+			<Int sr="arg1" val="0"/>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act4" ve="7">
 			<code>1732635924</code>
 			<Bundle sr="arg0">
 				<Vals sr="val">
-					<ActionId>com.instagram.android:id/overflow_menu_item</ActionId>
+					<ActionId>com.instagram.android:id/context_menu_item</ActionId>
 					<ActionId-type>java.lang.String</ActionId-type>
 					<ActionType>16</ActionType>
 					<ActionType-type>java.lang.String</ActionType-type>
@@ -107,7 +115,7 @@ Only available if you select &lt;b&gt;Continue Task After Error&lt;/b&gt; and th
 					<TextToWrite>&lt;null&gt;</TextToWrite>
 					<TextToWrite-type>java.lang.String</TextToWrite-type>
 					<com.twofortyfouram.locale.intent.extra.BLURB>Type: Id
-Value: com.instagram.android:id/overflow_menu_item
+Value: com.instagram.android:id/context_menu_item
 Action : Click</com.twofortyfouram.locale.intent.extra.BLURB>
 					<com.twofortyfouram.locale.intent.extra.BLURB-type>java.lang.String</com.twofortyfouram.locale.intent.extra.BLURB-type>
 					<net.dinglisch.android.tasker.RELEVANT_VARIABLES><StringArray sr=""><_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0>%err
