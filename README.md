@@ -31,3 +31,19 @@ If instead the event is a disconnection, I mute the media volume.
 ### [StartBiking](StartBiking.tsk.xml) & [StopBiking](StopBiking.tsk.xml)
 
 These tasks are a work in progress. I am trying to send intents to Google Fit in order to start and stop biking activity recording but so far not luck (suggestions are welcome!). I could use AutoInput to simulate clicks instead of using intent but that doesn't work for my goal to use the task while the screen locked (triggering it with a NFC tag).
+
+## Contributing
+
+Please read [CONTRIBUTING.md](CONTRIBUTING.md) for details on our code of conduct and the process for submitting pull requests.
+
+## Security
+
+Please read [SECURITY.md](SECURITY.md) for details on our security policy and how to report security vulnerabilities.
+
+## Code of Conduct
+
+Please read [CODE_OF_CONDUCT.md](CODE_OF_CONDUCT.md) for details on our code of conduct.
+
+## License
+
+This project is licensed under the terms of the [LICENSE](LICENSE) file.
