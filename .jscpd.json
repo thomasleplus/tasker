@@ -1,3 +1,8 @@
 {
-  "ignore": ["*.tsk.xml", "*.prf.xml"]
+  "ignore": [
+    "*.tsk.xml",
+    "*.prf.xml",
+    ".github/workflows/osv-scanner-pr.yml",
+    ".github/workflows/osv-scanner.yml"
+  ]
 }
